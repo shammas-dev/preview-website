@@ -177,7 +177,7 @@ const RESORT_CONFIG = {
     {
       id: "villa",
       name: "Forest Canopy Villa",
-      price: 8499,
+      price: 4499,
       area: "650 sq.ft",
       maxAdults: 2,
       maxChildren: 2,
@@ -192,7 +192,7 @@ const RESORT_CONFIG = {
     {
       id: "pool-suite",
       name: "Plunge Pool Suite",
-      price: 16999,
+      price: 6599,
       area: "920 sq.ft",
       maxAdults: 2,
       maxChildren: 0,
