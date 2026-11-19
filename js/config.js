@@ -20,7 +20,7 @@ const RESORT_CONFIG = {
   shortName: "Aurora villa",
   logoInitial: "A",
   tagline: "Where the Mist Meets the Forest Canopy",
-  address: "Mannarkkad - Anakkatti Rd, Anamooli, Mannarkad-II, Keralam 678582",
+  address: "Kozhikode",
   whatsappNumber: "918606411892", // country code + number, digits only (no +)
   phoneDisplay: "+91 86064 11892",
   email: "stay@vanamistkozhikode.com",
