@@ -1,5 +1,5 @@
 /* =====================================================================
-   RESORT CONFIG: the ONLY file you edit for a new client.
+   Farm House CONFIG: the ONLY file you edit for a new client.
    Every page (header, footer, rooms, packages, gallery, contact) reads
    from here. Items marked DEMO are sample data: replace with the
    client's real details, or remove/hide them.
@@ -16,21 +16,21 @@ const RESORT_CONFIG = {
   },
 
   // ---------- Identity ----------
-  brandName: "Vana Mist Resort",
-  shortName: "Vana Mist",
-  logoInitial: "V",
+  brandName: "Royad Farm House",
+  shortName: "Royad",
+  logoInitial: "R",
   tagline: "Where the Mist Meets the Forest Canopy",
-  address: "Meppadi - Chooralmala Road, Vythiri Taluk, Wayanad, Kerala 673577",
+  address: "Mannarkkad - Anakkatti Rd, Anamooli, Mannarkad-II, Keralam 678582",
   whatsappNumber: "918606411892", // country code + number, digits only (no +)
   phoneDisplay: "+91 86064 11892",
-  email: "stay@vanamistwayanad.com",
+  email: "stay@vanamistKozhikode.com",
   checkInTime: "2:00 PM",
   checkOutTime: "11:00 AM",
 
   // Google Maps: mapUrl = "Share > Send a link", mapEmbedUrl = "Share > Embed a map" (copy only the src="...")
-  mapUrl: "https://maps.google.com/?q=Wayanad,Kerala",
+  mapUrl: "https://maps.google.com/?q=Kozhikode,Kerala",
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125042.34525343757!2d76.0468!3d11.6103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60cf91a9c5f0d%3A0x71dd4da2e1d3e46f!2sWayanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125042.34525343757!2d76.0468!3d11.6103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60cf91a9c5f0d%3A0x71dd4da2e1d3e46f!2sKozhikode%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000",
   contact: {
     hours: "9:00 AM – 9:00 PM",
     nearestAirport: "Calicut International Airport (CCJ) — 95 km"
@@ -77,32 +77,32 @@ const RESORT_CONFIG = {
   // ---------- Per-page text (browser title, search description, headings) ----------
   pages: {
     home: {
-      title: "Vana Mist Resort | Luxury Nature Stays in Wayanad",
-      description: "Book direct at Vana Mist Resort, Wayanad. Private villas and cottages with zero booking fees."
+      title: "Royad | Luxury Nature Stays in Kozhikode",
+      description: "Book direct at Royad Farm House, Kozhikode. Private villas and cottages with zero booking fees."
     },
     rooms: {
-      title: "Stays & Tariffs | Vana Mist Resort Wayanad",
-      description: "Room types, direct tariffs and amenities at Vana Mist Resort, Wayanad.",
-      eyebrow: "Direct Resort Rates",
+      title: "Stays & Tariffs | Royad Farm House Kozhikode",
+      description: "Room types, direct tariffs and amenities at Royad Farm House, Kozhikode.",
+      eyebrow: "Direct Farm House Rates",
       heading: "Sanctuaries & Villas",
       intro: "All tariffs include complimentary Malabar breakfast, infinity pool access, and guided morning plantation walk."
     },
     gallery: {
-      title: "Gallery | Vana Mist Resort Wayanad",
-      description: "Photos of the villas, pool, dining and spa at Vana Mist Resort, Wayanad.",
+      title: "Gallery | Royad Farm House Kozhikode",
+      description: "Photos of the villas, pool, dining and spa at Royad Farm House, Kozhikode.",
       eyebrow: "Visual Tour",
       heading: "Life Above the Clouds"
     },
     contact: {
-      title: "Packages & Contact | Vana Mist Resort Wayanad",
-      description: "Honeymoon and family packages, directions and direct reservations at Vana Mist Resort.",
+      title: "Packages & Contact | Royad Farm House Kozhikode",
+      description: "Honeymoon and family packages, directions and direct reservations at Royad Farm House.",
       eyebrow: "Curated Escapes & Directions",
       heading: "Packages & Reservations",
       packagesHeading: "Seasonal & Honeymoon Packages" // heading above the packages (the section hides itself if packages is empty)
     },
     policies: {
-      title: "Policies & Privacy | Vana Mist Resort Wayanad",
-      description: "Booking, cancellation, house rules and privacy information for Vana Mist Resort.",
+      title: "Policies & Privacy | Royad Farm House Kozhikode",
+      description: "Booking, cancellation, house rules and privacy information for Royad Farm House.",
       eyebrow: "Good to Know",
       heading: "Policies & Privacy"
     }
@@ -110,11 +110,11 @@ const RESORT_CONFIG = {
 
   // ---------- Home: hero ----------
   hero: {
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2000&q=80",
-    imageAlt: "Vana Mist infinity pool above the valley",
+    image: "images/hero.webp",
+    imageAlt: "Royad infinity pool above the valley",
     headline: "Where the Mist Meets the Forest Canopy",
     subtext:
-      "Private pool villas and heritage cottages nestled in the misty hills of Wayanad. Check live tariffs below and book directly with zero commission.",
+      "Private pool villas and heritage cottages nestled in the misty hills of Kozhikode. Check live tariffs below and book directly with zero commission.",
     priceNote: "Incl. Breakfast" // shown after the starting price. "" = hidden
   },
 
@@ -123,24 +123,24 @@ const RESORT_CONFIG = {
 
   // Home: strip under the hero. Any number of items (3-4 looks best)
   trustBar: [
-    { title: "Zero Commission", text: "Direct Resort Best Tariff" },
+    { title: "Zero Commission", text: "Direct Farm House Best Tariff" },
     { title: "Free Breakfast", text: "Authentic Kerala & Continental" },
-    { title: "Direct WhatsApp", text: "Talk to the resort team directly" },
+    { title: "Direct WhatsApp", text: "Talk to the Farm House team directly" },
     { title: "Flexible Reschedule", text: "Free date change up to 48 hrs" } // DEMO: must match the client's real policy
   ],
 
   // Home: story section
   story: {
-    eyebrow: "Slow Living in Wayanad",
+    eyebrow: "Slow Living in Kozhikode",
     title: "Designed for Unhurried Mornings & Quiet Nights",
     text:
-      "Set across 14 acres of private cardamom and coffee estates, Vana Mist blends traditional Kerala timber architecture with modern barefoot luxury. Wake up to birdsong, swim above the clouds, and dine on farm-fresh Malabar cuisine.",
-    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1000&q=80",
-    imageAlt: "Resort deck with valley view",
+      "Set across 14 acres of private cardamom and coffee estates, Royad blends traditional Kerala timber architecture with modern barefoot luxury. Wake up to birdsong, swim above the clouds, and dine on farm-fresh Malabar cuisine.",
+    image: "images/hero.webp",
+    imageAlt: "Farm House deck with valley view",
     stats: [
       { value: "14 Acres", label: "Private Estate" },
       { value: "12 Villas", label: "Low-Density Privacy" },
-      { value: "4.9 ★", label: "480+ Google Reviews" } // DEMO
+      { value: "4.4 ★", label: "430+ Google Reviews" } // DEMO
     ]
   },
 
@@ -162,7 +162,7 @@ const RESORT_CONFIG = {
     {
       id: "cottage", // unique, no spaces
       name: "Mist Valley Cottage",
-      price: 4999,
+      price: 5999,
       area: "420 sq.ft",
       maxAdults: 2, // capacity per room (warning only). Shown as "Max 2 Adults + 1 Child"
       maxChildren: 1,
@@ -172,12 +172,12 @@ const RESORT_CONFIG = {
       tags: ["420 sq.ft", "King Bed", "Valley Balcony"],
       amenities: ["King-size orthopedic bed", "Private valley-view balcony", "High-speed Wi-Fi & workspace", "Rain shower & organic toiletries", "Complimentary breakfast", "Coffee & estate tea maker"],
       compare: { "Private Pool / Tub": "Main Infinity Pool", "Breakfast Included": "Yes" },
-      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+      image: "images/room1.webp"
     },
     {
       id: "villa",
       name: "Forest Canopy Villa",
-      price: 7499,
+      price: 8499,
       area: "650 sq.ft",
       maxAdults: 2,
       maxChildren: 2,
@@ -187,12 +187,12 @@ const RESORT_CONFIG = {
       tags: ["650 sq.ft", "Forest Deck", "Soaking Tub"],
       amenities: ["Panoramic 180° forest glass walls", "Freestanding stone soaking tub", "Private sunset deck with loungers", "King bed + daybed sofa", "Complimentary evening snacks", "Priority spa booking"],
       compare: { "Private Pool / Tub": "Stone Soaking Tub", "Breakfast Included": "Yes" },
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80"
+      image: "images/room2.webp"
     },
     {
       id: "pool-suite",
       name: "Plunge Pool Suite",
-      price: 10999,
+      price: 16999,
       area: "920 sq.ft",
       maxAdults: 2,
       maxChildren: 0,
@@ -202,7 +202,7 @@ const RESORT_CONFIG = {
       tags: ["920 sq.ft", "Private Pool", "Candlelight Setup"],
       amenities: ["Heated private infinity plunge pool", "Private outdoor dining gazebo", "Complimentary candlelight setup", "Dedicated butler & buggy service", "Luxury bathrobes & minibar", "Late checkout (subject to avail.)"],
       compare: { "Private Pool / Tub": "Heated Private Plunge Pool", "Breakfast Included": "Yes + In-Villa Option" },
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80"
+      image: "images/room3.webp"
     }
   ],
 
@@ -224,7 +224,7 @@ const RESORT_CONFIG = {
     },
     {
       id: "family",
-      name: "Wayanad Family Retreat",
+      name: "Kozhikode Family Retreat",
       duration: "2 Nights / 3 Days",
       priceLabel: "₹16,499",
       priceNote: "for 2 Adults + 2 Kids",
@@ -257,16 +257,16 @@ const RESORT_CONFIG = {
   },
 
   // ---------- Policies page (linked from the footer when enabled) ----------
-  // DEMO text: replace with the resort's REAL policies. Do not publish refund terms the owner has not agreed to.
+  // DEMO text: replace with the Farm House's REAL policies. Do not publish refund terms the owner has not agreed to.
   policies: {
     enabled: true,
     sections: [
       { title: "Booking & Payment", items: [
-        "Enquiries and bookings are handled by the resort team on WhatsApp. Your stay is confirmed only when the resort confirms it.",
-        "This website does not take payments. Payment terms are shared by the resort when you book."
+        "Enquiries and bookings are handled by the Farm House team on WhatsApp. Your stay is confirmed only when the Farm House confirms it.",
+        "This website does not take payments. Payment terms are shared by the Farm House when you book."
       ] },
       { title: "Cancellation & Refunds", items: [
-        "Cancellation and refund terms are shared by the resort at the time of booking. Please ask on WhatsApp before you pay."
+        "Cancellation and refund terms are shared by the Farm House at the time of booking. Please ask on WhatsApp before you pay."
       ] },
       { title: "House Rules", items: [
         "A valid photo ID is required for every guest at check-in.",
@@ -274,7 +274,7 @@ const RESORT_CONFIG = {
       ] },
       { title: "Privacy", items: [
         "This website does not collect or store your personal details.",
-        "When you tap a WhatsApp button, the details you chose (dates, room, guests, any name you typed) are placed in a WhatsApp message to the resort. They are used only to reply to your enquiry."
+        "When you tap a WhatsApp button, the details you chose (dates, room, guests, any name you typed) are placed in a WhatsApp message to the Farm House. They are used only to reply to your enquiry."
       ] }
     ]
   },
