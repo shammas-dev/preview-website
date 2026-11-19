@@ -16,21 +16,21 @@ const RESORT_CONFIG = {
   },
 
   // ---------- Identity ----------
-  brandName: "Vana Mist Resort",
-  shortName: "Vana Mist",
-  logoInitial: "V",
+  brandName: "Mount View Resort",
+  shortName: "Mount View",
+  logoInitial: "M",
   tagline: "Where the Mist Meets the Forest Canopy",
-  address: "Meppadi - Chooralmala Road, Vythiri Taluk, Wayanad, Kerala 673577",
+  address: "Mannarkkad - Anakkatti Rd, Anamooli, Mannarkad-II, Keralam 678582",
   whatsappNumber: "918606411892", // country code + number, digits only (no +)
   phoneDisplay: "+91 86064 11892",
-  email: "stay@vanamistwayanad.com",
+  email: "stay@vanamistAttapadi.com",
   checkInTime: "2:00 PM",
   checkOutTime: "11:00 AM",
 
   // Google Maps: mapUrl = "Share > Send a link", mapEmbedUrl = "Share > Embed a map" (copy only the src="...")
-  mapUrl: "https://maps.google.com/?q=Wayanad,Kerala",
+  mapUrl: "https://maps.google.com/?q=Attapadi,Kerala",
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125042.34525343757!2d76.0468!3d11.6103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60cf91a9c5f0d%3A0x71dd4da2e1d3e46f!2sWayanad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125042.34525343757!2d76.0468!3d11.6103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba60cf91a9c5f0d%3A0x71dd4da2e1d3e46f!2sAttapadi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1700000000000",
   contact: {
     hours: "9:00 AM – 9:00 PM",
     nearestAirport: "Calicut International Airport (CCJ) — 95 km"
@@ -77,32 +77,32 @@ const RESORT_CONFIG = {
   // ---------- Per-page text (browser title, search description, headings) ----------
   pages: {
     home: {
-      title: "Vana Mist Resort | Luxury Nature Stays in Wayanad",
-      description: "Book direct at Vana Mist Resort, Wayanad. Private villas and cottages with zero booking fees."
+      title: "Mount View | Luxury Nature Stays in Attapadi",
+      description: "Book direct at Mount View Resort, Attapadi. Private villas and cottages with zero booking fees."
     },
     rooms: {
-      title: "Stays & Tariffs | Vana Mist Resort Wayanad",
-      description: "Room types, direct tariffs and amenities at Vana Mist Resort, Wayanad.",
+      title: "Stays & Tariffs | Mount View Resort Attapadi",
+      description: "Room types, direct tariffs and amenities at Mount View Resort, Attapadi.",
       eyebrow: "Direct Resort Rates",
       heading: "Sanctuaries & Villas",
       intro: "All tariffs include complimentary Malabar breakfast, infinity pool access, and guided morning plantation walk."
     },
     gallery: {
-      title: "Gallery | Vana Mist Resort Wayanad",
-      description: "Photos of the villas, pool, dining and spa at Vana Mist Resort, Wayanad.",
+      title: "Gallery | Mount View Resort Attapadi",
+      description: "Photos of the villas, pool, dining and spa at Mount View Resort, Attapadi.",
       eyebrow: "Visual Tour",
       heading: "Life Above the Clouds"
     },
     contact: {
-      title: "Packages & Contact | Vana Mist Resort Wayanad",
-      description: "Honeymoon and family packages, directions and direct reservations at Vana Mist Resort.",
+      title: "Packages & Contact | Mount View Resort Attapadi",
+      description: "Honeymoon and family packages, directions and direct reservations at Mount View Resort.",
       eyebrow: "Curated Escapes & Directions",
       heading: "Packages & Reservations",
       packagesHeading: "Seasonal & Honeymoon Packages" // heading above the packages (the section hides itself if packages is empty)
     },
     policies: {
-      title: "Policies & Privacy | Vana Mist Resort Wayanad",
-      description: "Booking, cancellation, house rules and privacy information for Vana Mist Resort.",
+      title: "Policies & Privacy | Mount View Resort Attapadi",
+      description: "Booking, cancellation, house rules and privacy information for Mount View Resort.",
       eyebrow: "Good to Know",
       heading: "Policies & Privacy"
     }
@@ -110,11 +110,11 @@ const RESORT_CONFIG = {
 
   // ---------- Home: hero ----------
   hero: {
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=2000&q=80",
-    imageAlt: "Vana Mist infinity pool above the valley",
+    image: "images/hero.webp",
+    imageAlt: "Mount View infinity pool above the valley",
     headline: "Where the Mist Meets the Forest Canopy",
     subtext:
-      "Private pool villas and heritage cottages nestled in the misty hills of Wayanad. Check live tariffs below and book directly with zero commission.",
+      "Private pool villas and heritage cottages nestled in the misty hills of Attapadi. Check live tariffs below and book directly with zero commission.",
     priceNote: "Incl. Breakfast" // shown after the starting price. "" = hidden
   },
 
@@ -131,16 +131,16 @@ const RESORT_CONFIG = {
 
   // Home: story section
   story: {
-    eyebrow: "Slow Living in Wayanad",
+    eyebrow: "Slow Living in Attapadi",
     title: "Designed for Unhurried Mornings & Quiet Nights",
     text:
-      "Set across 14 acres of private cardamom and coffee estates, Vana Mist blends traditional Kerala timber architecture with modern barefoot luxury. Wake up to birdsong, swim above the clouds, and dine on farm-fresh Malabar cuisine.",
+      "Set across 14 acres of private cardamom and coffee estates, Mount View blends traditional Kerala timber architecture with modern barefoot luxury. Wake up to birdsong, swim above the clouds, and dine on farm-fresh Malabar cuisine.",
     image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1000&q=80",
     imageAlt: "Resort deck with valley view",
     stats: [
       { value: "14 Acres", label: "Private Estate" },
       { value: "12 Villas", label: "Low-Density Privacy" },
-      { value: "4.9 ★", label: "480+ Google Reviews" } // DEMO
+      { value: "4.4 ★", label: "430+ Google Reviews" } // DEMO
     ]
   },
 
@@ -162,7 +162,7 @@ const RESORT_CONFIG = {
     {
       id: "cottage", // unique, no spaces
       name: "Mist Valley Cottage",
-      price: 4999,
+      price: 2999,
       area: "420 sq.ft",
       maxAdults: 2, // capacity per room (warning only). Shown as "Max 2 Adults + 1 Child"
       maxChildren: 1,
@@ -172,12 +172,12 @@ const RESORT_CONFIG = {
       tags: ["420 sq.ft", "King Bed", "Valley Balcony"],
       amenities: ["King-size orthopedic bed", "Private valley-view balcony", "High-speed Wi-Fi & workspace", "Rain shower & organic toiletries", "Complimentary breakfast", "Coffee & estate tea maker"],
       compare: { "Private Pool / Tub": "Main Infinity Pool", "Breakfast Included": "Yes" },
-      image: "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=900&q=80"
+      image: "images/room1.webp"
     },
     {
       id: "villa",
       name: "Forest Canopy Villa",
-      price: 7499,
+      price: 4499,
       area: "650 sq.ft",
       maxAdults: 2,
       maxChildren: 2,
@@ -187,12 +187,12 @@ const RESORT_CONFIG = {
       tags: ["650 sq.ft", "Forest Deck", "Soaking Tub"],
       amenities: ["Panoramic 180° forest glass walls", "Freestanding stone soaking tub", "Private sunset deck with loungers", "King bed + daybed sofa", "Complimentary evening snacks", "Priority spa booking"],
       compare: { "Private Pool / Tub": "Stone Soaking Tub", "Breakfast Included": "Yes" },
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=900&q=80"
+      image: "images/room2.webp"
     },
     {
       id: "pool-suite",
       name: "Plunge Pool Suite",
-      price: 10999,
+      price: 3999,
       area: "920 sq.ft",
       maxAdults: 2,
       maxChildren: 0,
@@ -202,7 +202,7 @@ const RESORT_CONFIG = {
       tags: ["920 sq.ft", "Private Pool", "Candlelight Setup"],
       amenities: ["Heated private infinity plunge pool", "Private outdoor dining gazebo", "Complimentary candlelight setup", "Dedicated butler & buggy service", "Luxury bathrobes & minibar", "Late checkout (subject to avail.)"],
       compare: { "Private Pool / Tub": "Heated Private Plunge Pool", "Breakfast Included": "Yes + In-Villa Option" },
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80"
+      image: "images/room3.webp"
     }
   ],
 
@@ -224,7 +224,7 @@ const RESORT_CONFIG = {
     },
     {
       id: "family",
-      name: "Wayanad Family Retreat",
+      name: "Attapadi Family Retreat",
       duration: "2 Nights / 3 Days",
       priceLabel: "₹16,499",
       priceNote: "for 2 Adults + 2 Kids",
