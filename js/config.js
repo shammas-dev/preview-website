@@ -135,7 +135,7 @@ const RESORT_CONFIG = {
     title: "Designed for Unhurried Mornings & Quiet Nights",
     text:
       "Set across 14 acres of private cardamom and coffee estates, Mount View blends traditional Kerala timber architecture with modern barefoot luxury. Wake up to birdsong, swim above the clouds, and dine on farm-fresh Malabar cuisine.",
-    image: "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=1000&q=80",
+    image: "images/hero.webp",
     imageAlt: "Resort deck with valley view",
     stats: [
       { value: "14 Acres", label: "Private Estate" },
